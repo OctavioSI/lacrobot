@@ -67,7 +67,7 @@ async function createTweet(customtweet = '') {
         }
         // Vamos dar uma mixada nos tweets para não parecer que o bot só reclama.
         let lacrar = letsroll(0, 9);
-        if (lacrar < 5) {
+        if (lacrar < 3) {
             // Vamos falar algo normal, sem tom de reclamação.
             // Isso é necessário porque algumas pessoas estavam notando 
             // um comportamento muito artificial do perfil, que só reclamava.
